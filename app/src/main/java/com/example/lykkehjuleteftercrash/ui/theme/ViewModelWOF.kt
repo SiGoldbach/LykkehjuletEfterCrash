@@ -33,6 +33,7 @@ class WOFViewModel : ViewModel() {
         println("Getting to init")
 
 
+
         gameUiState.update { currentState ->
             currentState.copy(
                 points = 0,
@@ -217,7 +218,8 @@ class WOFViewModel : ViewModel() {
             currentState.copy(
                 concealedWord = hiddenWord,
                 keyboardLetters = updateKeyboardList,
-                gameStatus = State.SPIN
+                gameStatus = State.SPIN,
+                statusText = "SPIN"
             )
         }
         checkIfGameIsOver()
