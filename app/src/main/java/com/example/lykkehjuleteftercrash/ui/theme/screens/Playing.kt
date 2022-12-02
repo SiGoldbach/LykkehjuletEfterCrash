@@ -22,8 +22,8 @@ import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.sp
 import com.example.lykkehjuleteftercrash.R
 import com.example.lykkehjuleteftercrash.ui.theme.WOFViewModel
-import com.example.lykkehjuleteftercrash.ui.theme.state.KeyboardLetter
-import com.example.lykkehjuleteftercrash.ui.theme.state.LetterCard
+import com.example.lykkehjuleteftercrash.model.KeyboardLetter
+import com.example.lykkehjuleteftercrash.model.LetterCard
 
 /**
  * Here is the screen where the word has to be guessed

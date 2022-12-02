@@ -3,7 +3,10 @@ package com.example.lykkehjuleteftercrash.ui.theme
 import androidx.compose.ui.graphics.Color
 import androidx.lifecycle.ViewModel
 import com.example.lykkehjuleteftercrash.data.GameData
-import com.example.lykkehjuleteftercrash.ui.theme.state.*
+import com.example.lykkehjuleteftercrash.model.GameUiState
+import com.example.lykkehjuleteftercrash.model.KeyboardLetter
+import com.example.lykkehjuleteftercrash.model.LetterCard
+import com.example.lykkehjuleteftercrash.model.State
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow
 import kotlinx.coroutines.flow.asStateFlow

@@ -1,4 +1,4 @@
-package com.example.lykkehjuleteftercrash.ui.theme.state
+package com.example.lykkehjuleteftercrash.model
 
 import androidx.compose.ui.graphics.Color
 
